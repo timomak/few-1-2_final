@@ -1,10 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Heading from "./components/Heading";
+import MetalMeta from "./components/MetalMeta";
 
 function App() {
   return (
+    // className='App'
     <div className='App'>
-      <h1>Hello!</h1>
+      <Heading myName='Timo' />
+      <br />
+      <MetalMeta />
     </div>
   );
 }
