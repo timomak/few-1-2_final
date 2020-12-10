@@ -6,7 +6,7 @@ import "./MetalMeta.css";
 function MetalMeta() {
   const bands = data.map(
     ({ ID, band_name, fans, formed, origin, split, style }, i) => {
-      console.log("Band :", ID, band_name, fans, formed, origin, split, style);
+      // console.log("Band :", ID, band_name, fans, formed, origin, split, style);
       return (
         <Band
           ID={ID}

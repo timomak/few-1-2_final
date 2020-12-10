@@ -1,0 +1,26 @@
+.Band {
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: white;
+    border-style: dotted;
+}
+
+.Padding {
+    margin-left: 15px;
+}
+
+/* .Like {
+    display: inline-block;
+    text-align:center;
+} */
+
+.line {
+    width:33%;
+    float:left;
+}
+
+.text {
+    width:33%;
+    float:left;
+    padding-bottom: -15px;
+}
